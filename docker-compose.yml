@@ -1,0 +1,15 @@
+version: '3'
+services:
+    jupyter:
+        image: joshuacook/jupyter:postgis
+        ports:
+            - 8898:8888
+        volumes:
+            - .:/home/jovyan
+    postgis:
+        image: joshuacook/sf_business
+        volumes:
+            - postgres_data:/var/lib/postgresql/data
+volumes:
+    postgres_data:
+
