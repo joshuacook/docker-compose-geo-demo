@@ -6,6 +6,7 @@ This system makes use of Docker Compose to build a system linking Jupyter to a P
 
 Developed by Joshua Cook:
 
+- http://joshuacook.me
 - [Twitter](https://twitter.com/joshuacook)
 - [Github](https://github.com/joshuacook)
 - [LinkedIn](https://www.linkedin.com/in/joshuapaulcook/)
