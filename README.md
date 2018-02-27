@@ -2,6 +2,16 @@
 
 This system makes use of Docker Compose to build a system linking Jupyter to a PostgreSQL database with the PostGIS tools installed. 
 
+## Bio and Contact
+
+Developed by Joshua Cook:
+
+- [Twitter](https://twitter.com/joshuacook)
+- [Github](https://github.com/joshuacook)
+- [LinkedIn](https://www.linkedin.com/in/joshuapaulcook/)
+- [Apress](https://www.apress.com/us/book/9781484230114)
+- [UCLA Extension Data Science Certificate](https://www.uclaextension.edu/specialtyprogram/landingPage.do?method=load&specialtyProgramId=196400770)
+
 ## Install Docker Compose
 
 ### Install Compose on macOS
