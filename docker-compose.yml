@@ -7,9 +7,6 @@ services:
         volumes:
             - .:/home/jovyan
         command: ["start-notebook.sh", "--NotebookApp.password='sha1:93e8ffee1b39:6cce61498112b850ebcb1027df57fc1a5f4bd99e'"]
-        # to generate password, use 
-        # >>> from IPython.lib import passwd
-        # >>> passwd(#YOURPASSWORD#)
     postgis:
         build: docker/postgis
         volumes:

@@ -76,7 +76,17 @@ This system has a default password of `geojupyter`. To specify an alternative pa
 sha1:93e8ffee1b39:6cce61498112b850ebcb1027df57fc1a5f4bd99e
 ```
 
-then add this to the `docker-compose.yml` file.
+then add this to the `docker-compose.yml` file as the argument passed to the Jupyter service
+
+```
+    jupyter:
+        build: docker/jupyter
+        ports:
+            - 80:8888
+        volumes:
+            - .:/home/jovyan
+        command: ["start-notebook.sh", "--NotebookApp.password='sha1:93e8ffee1b39:6cce61498112b850ebcb1027df57fc1a5f4bd99e'"]
+```
 
 
 ## The Project Root Design Pattern
